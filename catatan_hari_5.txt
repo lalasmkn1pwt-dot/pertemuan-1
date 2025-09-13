@@ -1,0 +1,180 @@
+STRING
+======
+	-string BUKAN termasuk type data primitive/built in (INTEGER, float, char, double)
+	-String termasuk type data object (Class, Interface)
+	-String merupakan library bawaan java SE, nama package lengkapnya : java.lang.String
+	-String digunakan untuk menyimpan data yang berisi deretan character
+	
+	*) javap : java parser, adalah utility bawaan jdk, yg bisa kita gunakan untuk melihat isi dari java binary
+
+	membandingkan string/Compare String
+	====================
+		-jika kita ingin membandingkan 2 buah string, jangan menggunakan operator ==
+		-operator == (equality check), hasilnya TIDAK AKAN AKURAT(false), jika di gunakan untuk data bertype object
+		-operator == hanya akurat jika di gunakan pada data bertype built in/primitive.
+		-untuk data bertype object (tipe data class), gunakan method "equals()".
+
+BRANCHING / PERCABANGAN
+=======================
+	-adalah mekanisme di dalam bahasa program, yang digunakan untuk mengambil keputusan
+	-di java kita bisa menggunakan 2 jenis branching:
+	a. if - else
+		-di dalam if-else, pengujian kondisi hasil akhirnya HARUS bertype boolean (true/false)
+
+
+	b. switch
+		-di dalam switch, pengujian kondisi hasil akhirnya HARUS : String, integer (byte,short,int,long), char
+		*) String hanya di support di dalam switch, mulai java versi 7 (jdk 1.7)
+		
+		contoh : 
+			switch(variabel) {
+			    case 1:
+			    pernyataan
+			    break;
+			    case 2:
+                            pernyataan
+			    break;
+			    default;(pernyataan/pilihan terakhir)                            
+			}
+
+
+	LOOPING
+	=======
+	-adalah block code yang bisa digunakan untuk melakukan "repetitive task"
+	-repetitive task : pekerjaan yang sama, berulang2
+
+	CONTOH REPETITIVE TASK
+	======================
+	1. mencetak 1 hal berkali2
+	2. mengambil isi file per-baris
+	3. mengambil isi table database, per-baris
+	dst...
+
+
+
+	jenis loop di java:
+	a. looping yang HANYA akan berjalan, jika kondisi benar
+		a. for
+
+		b. while
+
+		++ = increment = nilai awal bertambah 1
+		-- = decrement = nilai awal dikurangi 1
+
+	b. loop yang SELALU jalan (minimal 1 x jalan), walaupun kondisi salah
+		do .. while
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
